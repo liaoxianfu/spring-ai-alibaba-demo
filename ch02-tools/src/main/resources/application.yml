@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: tools-calling
+  ai:
+    openai:
+      api-key: ${QWEN_KEY}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      chat:
+        options:
+          model: qwen-plus
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+  port: 9090

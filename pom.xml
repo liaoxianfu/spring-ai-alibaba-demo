@@ -23,6 +23,7 @@
     <description>spring-ai-alibaba-demo</description>
     <modules>
         <module>ch01-helloworld</module>
+        <module>ch02-tools</module>
     </modules>
 
     <dependencies>
@@ -40,9 +41,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
-            <groupId>com.alibaba.cloud.ai</groupId>
-            <artifactId>spring-ai-alibaba-starter-dashscope</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
