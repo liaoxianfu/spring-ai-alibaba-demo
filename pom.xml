@@ -5,7 +5,7 @@
 
     <properties>
         <java.version>24</java.version>
-        <spring-ai.version>1.0.0</spring-ai.version>
+        <spring-ai.version>1.0.1</spring-ai.version>
         <spring-ai-alibaba.version>1.0.0.2</spring-ai-alibaba.version>
         <spring-boot.version>3.4.5</spring-boot.version>
     </properties>
@@ -24,6 +24,7 @@
     <modules>
         <module>ch01-helloworld</module>
         <module>ch02-tools</module>
+        <module>ch03-mcp-client</module>
     </modules>
 
     <dependencies>
